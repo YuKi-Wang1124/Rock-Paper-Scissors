@@ -14,6 +14,9 @@
 		CCCD03C8271EA9F900F92EE0 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCD03C6271EA9F900F92EE0 /* ____.xcdatamodeld */; };
 		CCCD03CA271EA9FE00F92EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCD03C9271EA9FE00F92EE0 /* Assets.xcassets */; };
 		CCCD03CD271EA9FE00F92EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCD03CB271EA9FE00F92EE0 /* LaunchScreen.storyboard */; };
+		CCCD03D5271EAB0D00F92EE0 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD03D4271EAB0D00F92EE0 /* Sign.swift */; };
+		CCCD03D7271EAD6100F92EE0 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD03D6271EAD6100F92EE0 /* GameState.swift */; };
+		CCCD03D9271EBB2500F92EE0 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCCD03D8271EBB2500F92EE0 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CCCD03C9271EA9FE00F92EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCD03CC271EA9FE00F92EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCD03CE271EA9FE00F92EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCD03D4271EAB0D00F92EE0 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		CCCD03D6271EAD6100F92EE0 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		CCCD03D8271EBB2500F92EE0 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		CCCD03BC271EA9F900F92EE0 /* 猜拳遊戲 */ = {
 			isa = PBXGroup;
 			children = (
+				CCCD03D8271EBB2500F92EE0 /* crayon_1-1.ttf */,
 				CCCD03BD271EA9F900F92EE0 /* AppDelegate.swift */,
 				CCCD03BF271EA9F900F92EE0 /* SceneDelegate.swift */,
 				CCCD03C1271EA9F900F92EE0 /* ViewController.swift */,
 				CCCD03C3271EA9F900F92EE0 /* Main.storyboard */,
+				CCCD03D4271EAB0D00F92EE0 /* Sign.swift */,
+				CCCD03D6271EAD6100F92EE0 /* GameState.swift */,
 				CCCD03C9271EA9FE00F92EE0 /* Assets.xcassets */,
 				CCCD03CB271EA9FE00F92EE0 /* LaunchScreen.storyboard */,
 				CCCD03CE271EA9FE00F92EE0 /* Info.plist */,
@@ -128,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCD03D9271EBB2500F92EE0 /* crayon_1-1.ttf in Resources */,
 				CCCD03CD271EA9FE00F92EE0 /* LaunchScreen.storyboard in Resources */,
 				CCCD03CA271EA9FE00F92EE0 /* Assets.xcassets in Resources */,
 				CCCD03C5271EA9F900F92EE0 /* Main.storyboard in Resources */,
@@ -143,6 +153,8 @@
 			files = (
 				CCCD03C2271EA9F900F92EE0 /* ViewController.swift in Sources */,
 				CCCD03C8271EA9F900F92EE0 /* ____.xcdatamodeld in Sources */,
+				CCCD03D5271EAB0D00F92EE0 /* Sign.swift in Sources */,
+				CCCD03D7271EAD6100F92EE0 /* GameState.swift in Sources */,
 				CCCD03BE271EA9F900F92EE0 /* AppDelegate.swift in Sources */,
 				CCCD03C0271EA9F900F92EE0 /* SceneDelegate.swift in Sources */,
 			);
